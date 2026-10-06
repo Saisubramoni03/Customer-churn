@@ -1,0 +1,37 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node.js / Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Generated pipeline and model artifacts
+/phase1/output/
+/phase5/data/landing/
+/phase5/data/logs/
+/phase5/data/rejected/
+/phase5/data/spark_output/
+/phase6/models/
+/phase6/outputs/
